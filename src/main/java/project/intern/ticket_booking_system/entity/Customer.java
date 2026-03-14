@@ -10,26 +10,23 @@ import project.intern.ticket_booking_system.entity.enums.Role;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="customers")
+@Table(name = "customers")
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(nullable = false)
     private Long id;
 
     @Column(nullable = false)
-    private  String name;
+    private String name;
 
-    @Column(unique = true,nullable = false)
+    @Column(unique = true, nullable = false)
     private String email;
-    @Column(nullable = false,length = 60)
-    private  String password;
+    @Column(nullable = false, length = 60)
+    private String password;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
+   
     private Role role;
-
-
 
 
 }
