@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 import project.intern.ticket_booking_system.entity.Customer;
 
 @Repository
-public interface RepCustomer extends JpaRepository<Customer,Long>{
-
-
+@SuppressWarnings("NullableProblems")
+public interface RepCustomer extends JpaRepository<Customer, Long> {
 }
