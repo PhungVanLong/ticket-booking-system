@@ -76,7 +76,7 @@ Project Objective: Build the core engine for envents ticket booking system, focu
 * **Containerization:** All services (Backend, Frontend, Redis, Kafka, Database) must be containerized using Docker to ensure consistency between development, testing, and production environments.
 
 
-###Use Case Diagram
+### Use Case Diagram
 
 <img width="1262" height="2361" alt="usecase-v5-eng" src="https://github.com/user-attachments/assets/94812f26-5695-4d9f-b354-e727a2d8737d" />
 
